@@ -8,7 +8,7 @@ Version: 1.0.0
 Author URI: https://github.com/rensieeee
 */
 
-add_action( 'template_redirect', 'redirect_to_homepage' );
+add_action('template_redirect', 'redirect_to_homepage');
 
 function redirect_to_homepage() {
     $homepage_id = get_option('page_on_front');
